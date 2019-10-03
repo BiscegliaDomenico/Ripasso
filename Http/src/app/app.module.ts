@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FooComponent } from './foo/foo.component';
+import { FooComponentComponent } from './foo/foo.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FooComponent
+    FooComponentComponent
   ],
   imports: [
     BrowserModule, HttpClientModule
